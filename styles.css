@@ -110,6 +110,7 @@ h4{
 
 p{
     font-size: 1rem;
+    line-height: 1.5;
 }
 
 header, main, footer{
@@ -175,10 +176,6 @@ img{
     padding: 0.5rem 0;
 }
 
-div p{
-    line-height: 1.5;
-}
-
 /* --- Main: Choose Us --- */
 main ul{
     display: grid;
@@ -213,6 +210,28 @@ main li:nth-child(4){
 }
 
 /* --- Main: Pricing --- */
+section:nth-child(3){
+    padding-bottom: 0;
+}
+
+table{
+    background-color: var(--yellow);
+    margin: 0.5rem auto;
+    width: 250px;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+td{
+    background-color: var(--white);
+    text-align: left;
+    padding: 1rem 0 1rem 1rem;
+    border: 3px solid var(--yellow);
+}
 
 /* --- Main: Scheduling --- */
 

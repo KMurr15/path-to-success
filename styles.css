@@ -180,6 +180,37 @@ div p{
 }
 
 /* --- Main: Choose Us --- */
+main ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-top: 0.5rem;
+}
+
+main li{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2.5rem 0;
+    color: var(--dark-gray);
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+main li:nth-child(1){
+    background-color: var(--teal);
+}
+
+main li:nth-child(2){
+    background-color: var(--lavender);
+}
+
+main li:nth-child(3){
+    background-color: var(--yellow);
+}
+
+main li:nth-child(4){
+    background-color: var(--white);
+}
 
 /* --- Main: Pricing --- */
 
